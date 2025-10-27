@@ -25,7 +25,10 @@ export default function RootLayout({
         className={`${ubuntu.variable} font-sans antialiased bg-gray-900 text-white min-h-screen`}>
         <div className="flex">
           <NavBar/>
-          {children}
+          {/* flex 1 the child so it can take all of the space*/}
+          <div className="flex-1">
+            {children}
+          </div>
         </div>
       </body>
     </html>
