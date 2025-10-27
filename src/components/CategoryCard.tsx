@@ -12,7 +12,7 @@ interface CategoryCardProps {
 export default function CategoryCard(props: CategoryCardProps) {
     return (
         <Link href={props.href}>
-            <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition cursor-pointer">
+            <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition cursor-pointer w-full">
                 <div className="text-4xl mb-2">{props.icon}</div>
                 <h3 className="text-xl font-semibold">{props.categoryName}</h3>
             </div>
