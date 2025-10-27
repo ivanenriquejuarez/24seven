@@ -19,7 +19,7 @@ export default function Home() {
       subtitle="What's the next Adventure?"
     >
       {/* Category card display */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="mx-auto max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-6">
         {categories.map((category) => (
           <CategoryCard
             key={category.name}
