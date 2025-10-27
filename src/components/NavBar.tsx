@@ -14,7 +14,7 @@ export default function NavBar() {
     return (
         
         // Navbar
-        <nav className="w-64 h-screen p-6 bg-black border-r-2 border-purple-500">
+        <nav className="w-64 h-screen p-6 bg-black border-r-2 border-purple-500 fixed left-0 top-0 overflow-y-auto">
             <div> {/* Main container */}
                 
                 {/* Logo */}
