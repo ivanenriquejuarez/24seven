@@ -1,7 +1,7 @@
 import PageLayout from "@/components/PageLayout"
 
 
-export default function Foods() {
+export default function FoodsAndDrinks() {
     return (
         <PageLayout
             title="Foods"

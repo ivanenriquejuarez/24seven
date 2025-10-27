@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 
-export default function Exotic() {
+export default function NightLife() {
     return (
         <PageLayout
             title="Exotic"

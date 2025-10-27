@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 
-export default function Events() {
+export default function Shows() {
     return(
     <PageLayout
         title="Concerts"
