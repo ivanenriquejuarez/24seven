@@ -13,24 +13,31 @@ export default function NavBar() {
     return (
         
         // Navbar
-        <nav>
+        <nav className="w-64 h-screen p-6">
             <div> {/* Main container */}
                 
                 {/* Logo */}
-                <div>
-                    <Image src="/24sevenlogo.png" alt="24Seven Logo" width={240} height={320}></Image>
+                <div className="mb-4">
+                    <Link href="/">
+                         <Image src="/24sevenlogo.png" alt="24Seven Logo" width={180} height={140}></Image>                    
+                    </Link>
                 </div>
                 
                 {/* Discovery */}
-                <div>
-                    <Link href="/hottoday">🔥 Hot Today</Link>
-                    <Link href="/random">🎲 Random</Link>
+                <div className="mb-4">
+                    <Link href="/hottoday" className="block mb-2 hover:text-blue-400">
+                    🔥 Hot Today</Link>
+                    <Link href="/random" className="block mb-2 hover:text-blue-400">🎲 Random</Link>
                 </div>
                 
                 {/* Categories */}
-                <div>
+                <div className="mb-6">
                     {navCategories.map((categories => (
-                        <Link key={categories.title} href={categories.href}>
+                        <Link 
+                            key={categories.title} 
+                            href={categories.href}
+                            className="block mb-2 hover:text-blue-400"
+                        >
                             {categories.icon} {categories.title}
                         </Link>
                     )))}
