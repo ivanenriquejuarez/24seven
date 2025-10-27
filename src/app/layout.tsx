@@ -26,7 +26,7 @@ export default function RootLayout({
         <div className="flex">
           <NavBar/>
           {/* flex 1 the child so it can take all of the space*/}
-          <div className="flex-1">
+          <div className="flex-1 ml-64">
             {children}
           </div>
         </div>
