@@ -4,7 +4,7 @@ export default function Events() {
     return(
     <PageLayout
         title="Concerts"
-        subtitle="Who we listening tonight?"
+        subtitle="Who we watching tonight?"
     />
     )
 }
