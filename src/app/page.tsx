@@ -9,7 +9,7 @@ const categories = [
   { name: "Hotels", icon: "🏢", href:'/hotels'},
   { name: "Exotic", icon: "👯‍♀️", href:'/exotic'},
   { name: "Golf", icon: "⛳️", href:'/golf'},
-  { name: "Mueseum", icon:"⎒", href:"/mueseum"}
+  { name: "Museum", icon:"⎒", href:"/museum"}
 ];
 
 export default function Home() {
