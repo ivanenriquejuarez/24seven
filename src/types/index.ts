@@ -33,3 +33,30 @@ export interface Hotel {
     description: string;
     imageUrl: string;
 }
+
+export interface Nightlife {
+  id: string;
+  name: string;
+  category: string;      // "Club", "Strip Club", "Bar", "Lounge"
+  priceLevel: number;    // 1-5
+  rating: number;
+  description: string;
+  address: string;
+  hours: string;
+  ageRestriction: string; // "21+", "18+"
+  dressCode: string;     // "Upscale", "Casual", etc.
+  imageUrl: string;
+}
+
+export interface LocalGem {
+  id: string;
+  name: string;
+  category: string;      // "Market", "Park", "Museum", "Hidden Spot"
+  priceLevel: number;    // 1-5
+  rating: number;
+  description: string;
+  address: string;
+  hours: string;
+  neighborhood: string;  // "Arts District", "Downtown", etc.
+  imageUrl: string;
+}
