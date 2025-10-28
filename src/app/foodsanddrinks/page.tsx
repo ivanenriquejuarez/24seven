@@ -1,4 +1,4 @@
-import FoodComponent from "@/components/FoodComponent"
+import FoodCard from "@/components/FoodCard"
 import PageLayout from "@/components/PageLayout"
 import { foods } from "@/data/foods"
 
@@ -10,7 +10,7 @@ export default function FoodsAndDrinks() {
         >
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {foods.map((food) => (
-                    <FoodComponent key={food.id} food={food}/>
+                    <FoodCard key={food.id} food={food}/>
                 ))}
             </div>
          </PageLayout>
