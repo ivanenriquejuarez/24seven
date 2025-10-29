@@ -60,3 +60,85 @@ export interface LocalGem {
   neighborhood: string;  // "Arts District", "Downtown", etc.
   imageUrl: string;
 }
+
+export interface Golf {
+  id: string;
+  name: string;
+  type: string;        // "Public", "Private", "Resort"
+  priceLevel: number;
+  rating: number;
+  holes: number;       // 9 or 18
+  difficulty: string;  // "Beginner", "Intermediate", "Advanced"
+  description: string;
+  address: string;
+  imageUrl: string;
+}
+
+export interface Museum {
+  id: string;
+  name: string;
+  category: string;    // "Art", "History", "Science", "Specialty"
+  priceLevel: number;
+  rating: number;
+  description: string;
+  address: string;
+  hours: string;
+  imageUrl: string;
+}
+
+export interface Shopping {
+  id: string;
+  name: string;
+  category: string;    // "Mall", "Market", "Boutique", "Outlet"
+  priceLevel: number;
+  rating: number;
+  description: string;
+  address: string;
+  hours: string;
+  imageUrl: string;
+}
+
+export interface Spa {
+  id: string;
+  name: string;
+  priceLevel: number;
+  rating: number;
+  services: string[];  // ["Massage", "Facial", "Sauna"]
+  description: string;
+  address: string;
+  hours: string;
+  imageUrl: string;
+}
+
+export interface Tour {
+  id: string;
+  name: string;
+  category: string;    // "Air", "Ground", "Water", "Adventure"
+  priceLevel: number;
+  rating: number;
+  duration: string;    // "2 hours", "Full Day"
+  description: string;
+  meetingPoint: string;
+  imageUrl: string;
+}
+
+export interface Recreation {
+  id: string;
+  name: string;
+  category: string;    // "Arcade", "Bowling", "Mini Golf", "Escape Room"
+  priceLevel: number;
+  rating: number;
+  description: string;
+  address: string;
+  hours: string;
+  imageUrl: string;
+}
+
+export interface Category {
+  id: string;
+  name: string;
+  icon: string;
+  description: string;
+  count: number;
+  href: string;
+}
