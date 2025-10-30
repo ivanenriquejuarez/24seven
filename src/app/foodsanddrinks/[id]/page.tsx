@@ -1,5 +1,7 @@
 import { foods } from "@/data/foods";
 import PageLayout from "@/components/PageLayout";
+import BackButton from "@/components/buttons/BackButton";
+import PhoneButton from "@/components/buttons/PhoneButton";
 
 export default async function FoodAndDrinksPageDetail({ 
   params 
@@ -47,6 +49,8 @@ export default async function FoodAndDrinksPageDetail({
           <p className="text-gray-300 text-lg leading-relaxed mb-6">
             {foundFood.description}
           </p>
+          {/* Back Button*/}
+          <BackButton/>
         </div>
 
         {/* Sidebar - Contact Info */}
@@ -62,7 +66,7 @@ export default async function FoodAndDrinksPageDetail({
               
               <div>
                 <p className="text-gray-400 text-sm mb-1">Phone</p>
-                <p className="text-white">{foundFood.phone}</p>
+                <PhoneButton phoneNumber={foundFood.phone}/>
               </div>
               
               <div>
