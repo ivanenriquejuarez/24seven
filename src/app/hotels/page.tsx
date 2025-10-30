@@ -1,6 +1,6 @@
 import PageLayout from "@/components/PageLayout"
 import { hotels } from "@/data/hotels"
-import HotelCard from "@/components/HotelCard"
+import HotelCard from "@/components/cards/HotelCard"
 
 export default function Hotels() {
     return (

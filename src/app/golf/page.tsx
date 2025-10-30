@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import GolfCard from "@/components/GolfCard"
+import GolfCard from "@/components/cards/GolfCard"
 import { golf } from "@/data/golf"
 
 export default function Golf() {

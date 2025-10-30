@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import CategoryCard from "@/components/CategoryCard"
+import CategoryCard from "@/components/cards/CategoryCard"
 import { categories } from "@/data/categories"
 
 export default function More() {

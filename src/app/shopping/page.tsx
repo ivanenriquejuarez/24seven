@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import ShoppingCard from "@/components/ShoppingCard"
+import ShoppingCard from "@/components/cards/ShoppingCard"
 import { shopping } from "@/data/shopping"
 
 export default function Shopping() {

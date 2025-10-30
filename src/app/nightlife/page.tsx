@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import NightlifeCard from "@/components/NightlifeCard"
+import NightlifeCard from "@/components/cards/NightlifeCard"
 import { nightlife } from "@/data/nightlife"
 
 export default function Nightlife() {

@@ -1,5 +1,5 @@
 // Card prop usage
-import CategoryCard from "@/components/CategoryCard"
+import CategoryCard from "@/components/cards/CategoryCard"
 import PageLayout from "@/components/PageLayout";
 
 // fake data for now

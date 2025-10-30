@@ -1,4 +1,4 @@
-import FoodCard from "@/components/FoodCard"
+import FoodCard from "@/components/cards/FoodCard"
 import PageLayout from "@/components/PageLayout"
 import { foods } from "@/data/foods"
 

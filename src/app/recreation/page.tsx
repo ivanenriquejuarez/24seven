@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import RecreationCard from "@/components/RecreationCard"
+import RecreationCard from "@/components/cards/RecreationCard"
 import { recreation } from "@/data/recreation"
 
 export default function Recreation() {

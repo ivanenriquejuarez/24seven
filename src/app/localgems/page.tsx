@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import LocalGemCard from "@/components/LocalGemCard"
+import LocalGemCard from "@/components/cards/LocalGemCard"
 import { localGems } from "@/data/localgems"
 
 export default function LocalGems() {

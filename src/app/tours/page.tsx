@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import TourCard from "@/components/TourCard"
+import TourCard from "@/components/cards/TourCard"
 import { tours } from "@/data/tours"
 
 export default function Tours() {

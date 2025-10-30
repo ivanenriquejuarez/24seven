@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import MuseumCard from "@/components/MuseumCard"
+import MuseumCard from "@/components/cards/MuseumCard"
 import { museums } from "@/data/museums"
 
 export default function Museums() {

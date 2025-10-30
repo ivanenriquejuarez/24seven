@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout"
-import SpaCard from "@/components/SpaCard"
+import SpaCard from "@/components/cards/SpaCard"
 import { spas } from "@/data/spas"
 
 export default function Spas() {
