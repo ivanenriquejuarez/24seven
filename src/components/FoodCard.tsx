@@ -1,4 +1,5 @@
 import { Food } from "@/types"
+import Link from "next/link"
 
 interface FoodCardProps {
     food: Food;
@@ -37,9 +38,11 @@ export default function FoodCard({ food }: FoodCardProps) {
                 </p>
                 
                 {/* View Details Button */}
+                <Link href={`/foodsanddrinks/${food.id}`}>
                 <button className="w-full bg-purple-600 hover:bg-purple-500 text-white py-2 rounded-lg transition">
                     View Details
                 </button>
+                </Link>
                 
             </div>
         </div>
